@@ -5,7 +5,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 /**
  * @author Mark Paluch
  */
-@ConfigurationProperties("example")
+@ConfigurationProperties("weirdscience")
 public class MyConfiguration {
 
     private String username;

@@ -28,8 +28,8 @@ public class Application implements CommandLineRunner {
 
         logger.info("----------------------------------------");
         logger.info("Configuration properties");
-        logger.info("        example.username is {}", configuration.getUsername());
-        logger.info("        example.password is {}", configuration.getPassword());
+        logger.info("        weirdscience.username is {}", configuration.getUsername());
+        logger.info("        weirdscience.password is {}", configuration.getPassword());
         logger.info("----------------------------------------");
     }
 }
